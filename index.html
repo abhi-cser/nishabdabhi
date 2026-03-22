@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Kumar Nishabd — Artist · Poet · Engineer</title>
+  <meta name="description" content="Official website of Abhishek Kumar Nishabd — an engineer who turns silence into sound and thoughts into poetry. Listen to Kaise Bataau now." />
+  <meta name="author" content="Abhishek Kumar Nishabd" />
+  <meta property="og:title" content="Abhishek Kumar Nishabd — Artist · Poet · Engineer" />
+  <meta property="og:description" content="An engineer who writes poetry and songs. Listen to the debut release 'Kaise Bataau'." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ CURSOR-REACTIVE MUSIC PARTICLES ============ -->
+  <canvas id="musicCanvas"></canvas>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Abhishek Kumar Nishabd</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#connect">Connect</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#music" class="mobile-link">Music</a>
+      <a href="#connect" class="mobile-link">Connect</a>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-layout">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Abhishek Kumar</p>
+        <h1 class="hero-title">Nishabd<br /><em>Abhi</em></h1>
+        <p class="hero-tagline">Engineer&nbsp;·&nbsp;Poet&nbsp;·&nbsp;Musician</p>
+        <p class="hero-quote">"Turning silence into sound, one verse at a time."</p>
+        <div class="hero-cta">
+          <a href="#music" class="btn btn-primary">Latest Release</a>
+          <a href="#connect" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+
+      <!-- Right-side decorative visual -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-visual-ring hero-ring-1"></div>
+        <div class="hero-visual-ring hero-ring-2"></div>
+        <div class="hero-visual-ring hero-ring-3"></div>
+        <div class="hero-vinyl">
+          <div class="hero-vinyl-inner">
+            <div class="hero-vinyl-groove"></div>
+            <div class="hero-vinyl-center">
+              <span class="hero-vinyl-label">Nishabd<br/>Abhi</span>
+            </div>
+          </div>
+          <div class="hero-needle"></div>
+        </div>
+        <p class="hero-visual-text">कैसे बताऊँ</p>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span class="scroll-line"></span>
+      <span class="scroll-label">scroll</span>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label">About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-heading">जिन्दगी की स्याही से कलम की धार तक</h2>
+          <p>
+            Abhishek Kumar, known artistically as <strong>Nishabd Abhi</strong>, weaves the silence left behind by unsaid words. While engineering grounds him in logic by day, it is through the vulnerability of verse—<em>shayari</em>, poetry, and ghazals—that he truly navigates the world.
+          </p>
+          <p>
+            <em>Nishabd</em> (निशब्द) means <em>silent</em> or <em>speechless</em>—the profound quiet before a storm of emotions. His pen bleeds the colors of life, capturing the delicate nuances of love, longing, and the profound beauty of ordinary moments. Every couplet is a mirror held up to the soul.
+          </p>
+          <p>
+            He is also a core voice behind <strong>The Backloggers</strong>, a sprawling literary collective and sanctuary for budding talents across poetry, art, and music. His debut single, <strong>Kaise Bataau</strong>, was born from this exact tension—how to express an ocean of feeling when you have only a few drops of words.
+          </p>
+        </div>
+        <div class="about-aside">
+          <div class="about-card">
+            <div class="about-card-icon">🎵</div>
+            <h3>Musician</h3>
+            <p>Crafting songs that bridge emotion and melody.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">✍️</div>
+            <h3>Poet</h3>
+            <p>Writing poetry that speaks the unspeakable.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">⚙️</div>
+            <h3>Engineer</h3>
+            <p>Building with logic, creating with soul.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MUSIC ============ -->
+  <section class="music" id="music">
+    <div class="container">
+      <div class="section-label">Music</div>
+      <h2 class="section-heading">Discography</h2>
+
+      <!-- Released -->
+      <div class="release-card">
+        <div class="release-badge">Single · 2025</div>
+        <div class="release-body">
+          <div class="release-art">
+            <div class="release-art-inner">
+              <div class="vinyl-ring"></div>
+              <div class="vinyl-center">
+                <span class="vinyl-title">Kaise<br/>Bataau</span>
+              </div>
+            </div>
+          </div>
+          <div class="release-info">
+            <h3 class="release-title">Kaise Bataau</h3>
+            <p class="release-sub">कैसे बताऊँ</p>
+            <p class="release-desc">
+              A song born from the inadequacy of words — the feeling when you have something
+              enormous to say but every sentence falls short. Intimate, acoustic, and raw.
+            </p>
+            <p class="release-desc-secondary">Available on all major platforms.</p>
+
+            <div class="stream-links">
+              <a id="stream-spotify" href="https://open.spotify.com/track/0jNqiE1kj30QKEL3ctD4OU" target="_blank" rel="noopener" class="stream-btn stream-spotify" aria-label="Listen on Spotify">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.516 17.32c-.22.356-.69.47-1.046.25-2.867-1.754-6.473-2.15-10.72-1.175-.41.094-.82-.16-.914-.57-.096-.41.16-.82.57-.914 4.645-1.06 8.63-.604 11.86 1.363.356.22.47.69.25 1.046zm1.47-3.27c-.278.445-.864.585-1.308.308-3.28-2.016-8.28-2.6-12.163-1.423-.505.153-1.036-.13-1.19-.634-.153-.505.13-1.036.634-1.19 4.43-1.343 9.933-.692 13.72 1.63.444.278.584.864.306 1.308zm.127-3.406C15.6 8.39 9.404 8.186 5.71 9.296c-.6.183-1.234-.152-1.417-.753-.182-.6.153-1.234.754-1.417 4.27-1.297 11.364-1.047 15.848 1.643.54.32.718 1.018.397 1.558-.32.54-1.018.718-1.558.397z"/></svg>
+                Spotify
+              </a>
+              <a id="stream-apple" href="https://music.apple.com/ca/song/kaise-bataau/1828561897" target="_blank" rel="noopener" class="stream-btn stream-apple" aria-label="Listen on Apple Music">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M23.994 6.124a9.23 9.23 0 00-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a6.733 6.733 0 00-1.88-.77c-.54-.123-1.11-.192-1.64-.213-.03-.001-.56-.007-.92-.01H6.854c-.36.003-.89.01-.92.01-.53.02-1.1.09-1.64.213a6.733 6.733 0 00-1.88.77C1.297 1.625.553 2.623.24 3.934A9.23 9.23 0 000 6.124c-.001.04-.006.55-.006.92v9.912c0 .37.005.88.006.92a9.23 9.23 0 00.24 2.19c.317 1.31 1.062 2.31 2.18 3.043a6.733 6.733 0 001.88.77c.54.123 1.11.192 1.64.213.03.001.56.007.92.01h10.274c.36-.003.89-.01.92-.01.53-.02 1.1-.09 1.64-.213a6.733 6.733 0 001.88-.77c1.118-.734 1.863-1.734 2.18-3.044a9.23 9.23 0 00.24-2.19c.001-.04.006-.55.006-.92V7.044c0-.37-.005-.88-.006-.92zM15.7 7.66l-1.02 5.51c-.02.12-.07.22-.15.3-.08.07-.18.12-.29.14l-4.66.77c-.52.08-.99-.3-1.07-.82L7.96 9.01c-.08-.53.3-1.01.83-1.09l5.07-.84c.53-.09 1.01.3 1.09.83l.33 2c.04.22.18.41.38.51.2.1.44.12.65.04l1.01-.4c.47-.18.97.07 1.15.54.08.24.05.49-.07.7l-.73 1.27a1.3 1.3 0 01-1.16.65l-3.49.22.61 3.68 3.1-.51.57-3.08c.04-.24.19-.45.4-.57.21-.12.45-.15.68-.07l1.52.6c.49.19.73.74.54 1.23-.08.19-.22.35-.4.44l-5.94 2.65c-.48.22-1.06 0-1.27-.49l-2.6-5.84c-.21-.48 0-1.06.49-1.27l6.47-2.89c.37-.16.78-.06 1.03.24.14.17.2.37.19.58z"/></svg>
+                Apple Music
+              </a>
+              <a id="stream-youtube" href="https://www.youtube.com/watch?v=9jtlNdIEwYU" target="_blank" rel="noopener" class="stream-btn stream-youtube" aria-label="Watch on YouTube">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                YouTube
+              </a>
+              <a id="stream-ytmusic" href="https://music.youtube.com/watch?v=xY3su2y33vU" target="_blank" rel="noopener" class="stream-btn stream-ytmusic" aria-label="Listen on YouTube Music">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0zm0 19.104c-3.924 0-7.104-3.18-7.104-7.104S8.076 4.896 12 4.896s7.104 3.18 7.104 7.104-3.18 7.104-7.104 7.104zm0-13.332c-3.432 0-6.228 2.796-6.228 6.228S8.568 18.228 12 18.228s6.228-2.796 6.228-6.228S15.432 5.772 12 5.772zM9.684 15.54V8.46L16.2 12l-6.516 3.54z"/></svg>
+                YT Music
+              </a>
+              <a id="stream-amazon" href="https://music.amazon.in/albums/B0FJPKYNHW" target="_blank" rel="noopener" class="stream-btn stream-amazon" aria-label="Listen on Amazon Music">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.745.074-1.047-.872-1.234-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.66 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.095V6.44c0-.677.051-1.477-.344-2.064-.394-.537-1.149-.759-1.82-.759-1.236 0-2.342.634-2.611 1.949-.056.288-.274.573-.575.587l-3.213-.346c-.271-.063-.566-.29-.491-.712C5.548 2.595 8.578 1.5 11.287 1.5c1.409 0 3.266.375 4.379 1.441 1.409 1.315 1.274 3.064 1.274 4.971v4.5c0 1.353.562 1.95 1.089 2.681.188.255.227.559-.012.761l-2.873 2.441-.001-.02.001.02zm1.845 4.212C17.17 23.49 14.503 24 12.23 24 9.042 24 6.232 22.963 4.09 21.12c-.194-.167-.022-.399.212-.268 2.316 1.349 5.178 2.161 8.131 2.161 2.143 0 4.569-.452 6.77-1.378.317-.138.578.214.286.446-.139.114-.282.224-.5.326zm1.019-1.137c-.265-.349-1.758-.165-2.43-.083-.198.025-.232-.156-.051-.289 1.19-.836 3.141-.595 3.366-.314.225.282-.059 2.213-1.176 3.136-.171.147-.335.069-.259-.124.251-.624.81-2.026.55-2.326z"/></svg>
+                Amazon Music
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coming Soon -->
+      <div class="release-card release-coming-soon">
+        <div class="release-badge release-badge-soon">Coming Soon</div>
+        <div class="release-body release-body-soon">
+          <div class="release-art release-art-soon">
+            <div class="release-art-inner release-art-inner-paused">
+              <div class="vinyl-ring"></div>
+              <div class="vinyl-center">
+                <span class="vinyl-title" style="font-size:0.55rem">Teri<br/>Yaadon<br/>Ka<br/>Saayaa</span>
+              </div>
+            </div>
+          </div>
+          <div class="release-info">
+            <div class="coming-soon-tag">
+              <span class="cs-dot"></span> Upcoming
+            </div>
+            <h3 class="release-title">Teri Yaadon Ka Saayaa</h3>
+            <p class="release-sub">तेरी यादों का साया</p>
+            <p class="release-desc">
+              The next chapter — a song about the shadow of memories that never quite leaves.
+              Stay tuned.
+            </p>
+            <p class="release-coming-date">Release date to be announced</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ CONNECT ============ -->
+  <section class="connect" id="connect">
+    <div class="container">
+      <div class="section-label">Connect</div>
+      <h2 class="section-heading">Find Me</h2>
+      <p class="connect-sub">
+        Whether you're a fellow creator, a listener, or just someone who felt something while
+        reading a line — reach out. I'd love to hear from you.
+      </p>
+
+      <div class="connect-grid">
+
+        <!-- Primary: personal -->
+        <div class="connect-card connect-card-personal">
+          <div class="connect-card-header">
+            <span class="connect-card-badge">Artist</span>
+            <h3>Nishabd Abhi</h3>
+          </div>
+          <p class="connect-card-desc">Music &amp; personal musings</p>
+          <a id="insta-nishabd" href="https://www.instagram.com/nishabd_abhi/" target="_blank" rel="noopener" class="social-link social-link-primary">
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </span>
+            @nishabd_abhi
+            <span class="social-arrow">↗</span>
+          </a>
+        </div>
+
+        <!-- Backloggers — featured -->
+        <div class="connect-card connect-card-backloggers">
+          <div class="backloggers-header">
+            <span class="backloggers-badge">Literary Collective</span>
+            <h3>The Backloggers</h3>
+          </div>
+          <p class="backloggers-tagline">
+            A community of wordsmiths — poetry, shayari, prose, and everything in between.
+            Discover voices that write with soul.
+          </p>
+          <div class="backloggers-tags">
+            <span class="tag">Poetry</span>
+            <span class="tag">Shayari</span>
+            <span class="tag">Prose</span>
+            <span class="tag">Literary Arts</span>
+          </div>
+          <a id="insta-backloggers" href="https://www.instagram.com/the_backloggers/" target="_blank" rel="noopener" class="social-link social-link-highlight">
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </span>
+            @the_backloggers
+            <span class="social-arrow">↗</span>
+          </a>
+        </div>
+
+        <!-- Right column: email + stream -->
+        <div class="connect-right-col">
+          <div class="connect-card connect-email-card">
+            <h3>Email</h3>
+            <p class="connect-email-hint">Collaborations, bookings, or just a conversation.</p>
+            <a id="email-link" href="mailto:nishabdabhi@proton.me" class="social-link social-link-highlight" style="display: inline-flex; width: fit-content; gap: 0.6rem;">
+              <span class="social-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </span>
+              nishabdabhi@proton.me
+              <span class="social-arrow">↗</span>
+            </a>
+          </div>
+
+          <div class="connect-card">
+            <h3>Stream Everywhere</h3>
+            <ul class="platform-list">
+              <li><a href="https://open.spotify.com/track/0jNqiE1kj30QKEL3ctD4OU" target="_blank" rel="noopener">Spotify</a></li>
+              <li><a href="https://music.apple.com/ca/song/kaise-bataau/1828561897" target="_blank" rel="noopener">Apple Music</a></li>
+              <li><a href="https://music.amazon.in/albums/B0FJPKYNHW" target="_blank" rel="noopener">Amazon Music</a></li>
+              <li><a href="https://www.youtube.com/watch?v=9jtlNdIEwYU" target="_blank" rel="noopener">YouTube</a></li>
+              <li><a href="https://music.youtube.com/watch?v=xY3su2y33vU" target="_blank" rel="noopener">YouTube Music</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-name">Abhishek Kumar Nishabd</span>
+          <span class="footer-fullname">Artist · Poet · Engineer</span>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:nishabdabhi@proton.me">nishabdabhi@proton.me</a>
+          <a href="https://www.instagram.com/nishabd_abhi/" target="_blank" rel="noopener">@nishabd_abhi</a>
+          <a href="https://www.instagram.com/the_backloggers/" target="_blank" rel="noopener">@the_backloggers</a>
+        </div>
+      </div>
+      <div class="footer-bottom" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1.5rem;">
+        <div class="footer-copy">
+          &copy; <span id="year"></span> Abhishek Kumar Nishabd. All rights reserved.
+        </div>
+        <div class="footer-legal" style="display: flex; gap: 1.2rem; font-size: 0.75rem;">
+          <a href="privacy-policy.html" style="color: var(--text-faint); text-decoration: none; transition: color 0.3s; letter-spacing: 0.04em;">Privacy Policy</a>
+          <a href="terms-conditions.html" style="color: var(--text-faint); text-decoration: none; transition: color 0.3s; letter-spacing: 0.04em;">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

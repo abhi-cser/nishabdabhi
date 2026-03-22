@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms & Conditions - Abhishek Kumar Nishabd</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .legal-page { padding: 8rem 5% 4rem; max-width: 800px; margin: 0 auto; }
+    .legal-content h1 { font-family: var(--serif); font-size: 3rem; color: var(--gold-light); margin-bottom: 2rem; }
+    .legal-content h2 { font-family: var(--serif); font-size: 1.8rem; color: var(--text); margin-top: 2.5rem; margin-bottom: 1rem; }
+    .legal-content p { color: var(--text-muted); line-height: 1.8; margin-bottom: 1rem; font-size: 0.95rem; }
+    .legal-content ul { color: var(--text-muted); margin-bottom: 1rem; padding-left: 1.5rem; line-height: 1.8; }
+    .legal-content a { color: var(--gold); text-decoration: none; }
+    .legal-content a:hover { text-decoration: underline; }
+    .back-nav { margin-bottom: 3rem; }
+    .back-nav a { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--gold); text-decoration: none; font-size: 0.9rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; transition: color var(--transition); }
+    .back-nav a:hover { color: var(--gold-light); transform: translateX(-4px); }
+  </style>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav scrolled" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Abhishek Kumar Nishabd</a>
+    </div>
+  </nav>
+
+  <div class="legal-page">
+    <div class="back-nav">
+      <a href="index.html">← Back to Home</a>
+    </div>
+    <div class="legal-content">
+      <h1>Terms & Conditions</h1>
+      <p><em>Last Updated: March 2026</em></p>
+      
+      <p>Welcome to the official website of Abhishek Kumar Nishabd. By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement.</p>
+
+      <h2>1. Intellectual Property Rights</h2>
+      <p>All content published and made available on our site is the property of Abhishek Kumar Nishabd and the creators. This includes, but is not limited to images, text, logos, documents, downloadable files, poetry, lyrics, and music. The literary platform "The Backloggers" and its associated content are equally protected.</p>
+      
+      <h2>2. Acceptable Use</h2>
+      <p>As a user of our site, you agree to use our site legally, not to use our site for illegal purposes, and not to:</p>
+      <ul>
+        <li>Harass or abuse other users of our site.</li>
+        <li>Violate the intellectual property rights of the site owners or any third party to the site.</li>
+        <li>Hack into the account of another user of the site.</li>
+        <li>Act in any way that could be considered fraudulent.</li>
+      </ul>
+
+      <h2>3. Third-Party Goods and Services</h2>
+      <p>Our site may offer goods and services from third parties, primarily external links to streaming platforms (Spotify, Apple Music, YouTube, Amazon Music) where you can listen to our music. We cannot guarantee the quality or accuracy of goods and services made available by third parties on our site.</p>
+
+      <h2>4. Limitation of Liability</h2>
+      <p>Abhishek Kumar Nishabd and our directors, officers, agents, employees, subsidiaries, and affiliates will not be liable for any actions, claims, losses, damages, liabilities and expenses including legal fees from your use of the site.</p>
+
+      <h2>5. Indemnity</h2>
+      <p>Except where prohibited by law, by using this Site you indemnify and hold harmless Abhishek Kumar Nishabd and our affiliates against any actions, claims, losses, damages, liabilities and expenses arising out of your use of our Site or your violation of these Terms and Conditions.</p>
+
+      <h2>6. applicable law</h2>
+      <p>These terms are governed by the laws of India, without regard to conflict of law principles.</p>
+
+      <h2>7. Contact Details</h2>
+      <p>Please contact us if you have any questions or concerns. Our contact details are as follows:<br>
+      <a href="mailto:nishabdabhi@proton.me">nishabdabhi@proton.me</a></p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container" style="max-width: 800px; padding: 0;">
+      <div class="footer-bottom" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1.5rem;">
+        <div class="footer-copy">
+          &copy; <span id="year"></span> Abhishek Kumar Nishabd. All rights reserved.
+        </div>
+        <div class="footer-legal" style="display: flex; gap: 1.2rem; font-size: 0.75rem;">
+          <a href="privacy-policy.html" style="color: var(--text-faint); text-decoration: none; transition: color 0.3s;">Privacy Policy</a>
+          <a href="terms-conditions.html" style="color: var(--gold-light); text-decoration: none;">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
